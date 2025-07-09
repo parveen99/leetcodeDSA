@@ -29,9 +29,6 @@ def maximum_sum_optimal(arr, k):
             i += 1
             j += 1
     return maxx
-        
-
-
 
 
 print(maximum_sum_optimal(arr, 3))
