@@ -108,3 +108,54 @@ def print_inverted_star_pyramid(num):
 #print_inverted_star_pyramid(6)
 
 
+
+
+
+
+
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+
+'''
+        *         
+      * * *       
+    * * * * *     
+  * * * * * * *   
+* * * * * * * * * 
+* * * * * * * * * 
+  * * * * * * *   
+    * * * * *     
+      * * *       
+        * 
+
+'''
+    
+def pattern_1(num):
+    for i in range(0, num):
+        for space in range(0, num-i-1):
+            print(" ", end = " ")
+        for star in range(0, (2*i)+1):
+            print("*", end = " ")
+        for space in range(0, num-i-1):
+            print(" ", end = " ")
+        print()
+    
+def pattern_2(num):
+    for i in range(0, num):
+        for space in range(0, i):
+            print(" ", end = " ")
+        
+        for star in range(0, ((2*num)-((2*i)+1))):
+            print("*", end = " ")
+            
+        for space in range(0, i):
+            print(" ", end = " ")
+            
+        print()
+        
+pattern_1(5)
+pattern_2(5)
+
+
+
