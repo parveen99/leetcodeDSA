@@ -1,4 +1,8 @@
 # brute force
+'''
+Max Sum Subarray of size K
+'''
+
 
 
 def maximum_sum_brute(arr, k):
@@ -9,7 +13,9 @@ def maximum_sum_brute(arr, k):
             m.append(sum(arr[i: i+k]))
     return max(m)
 
-
+'''
+Time complexity -> O(n) -> loop traversal ; O(k) -> slicing and sum = O (n * k)
+'''
 arr = [8, 6, 7, 9, 10]
 # print(maximum_sum_brute(arr, 3))
 
