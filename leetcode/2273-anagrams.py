@@ -1,6 +1,11 @@
 from collections import Counter
 
-#note: dont store len of words outside the condition, while the problems involves removing elements
+'''
+note: dont store len of words outside the condition, while the problems 
+involves removing elements
+'''
+
+
 class Solution(object):
     def removeAnagrams(self, words):
         i = 1
@@ -13,6 +18,7 @@ class Solution(object):
 
 
 s = Solution()
-words = ["yjonq","yqnoj","oyqjn","nqoyj","onjqy","joqyn","qynjo","jynoq"]
+words = ["yjonq", "yqnoj", "oyqjn", "nqoyj",
+         "onjqy", "joqyn", "qynjo", "jynoq"]
 result = s.removeAnagrams(words)
 print(result)

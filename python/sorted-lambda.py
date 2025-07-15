@@ -25,11 +25,6 @@ val = sorted(seen.items())
 print(val)
 
 
-
-
-
-
-
 # sorted_items = sorted(freq_map.items(), key=lambda x: (-x[1], x[0]))
 
 # sorted() #sorts this list of tuples.
@@ -45,7 +40,6 @@ print(val)
 # nums = [5, 2, 9, 1]
 # print(sorted(nums))  # ascending
 # print(sorted(nums, reverse=True))  # descending
-
 
 
 # 📝 2️⃣ Sort list of tuples by one element
