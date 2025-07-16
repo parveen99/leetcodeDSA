@@ -7,3 +7,6 @@ def bruteforce(num):
         return "YEAH"
     else:
         return "NAH"
+    
+
+
