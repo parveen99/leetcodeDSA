@@ -157,5 +157,11 @@ def pattern_2(num):
 pattern_1(5)
 pattern_2(5)
 
+print()
 
-
+n = 3
+row = '*'
+while n > 0:
+    print("|" * (n-1) + row)
+    row = row + '**'
+    n = n -1
