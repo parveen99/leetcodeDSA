@@ -33,3 +33,16 @@ def optimal(nums, k):
 
 val = optimal(nums, k)
 print(val)
+
+
+
+
+def brute(nums, k):
+    
+
+
+
+
+
+val_1 = brute(nums, k)
+print(val_1)
